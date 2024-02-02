@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[988],{1988:(e,s,a)=>{e.exports=a.p+"static/media/pomodoro.a786dc9a9ad4e2ead3b2.svg"}}]);

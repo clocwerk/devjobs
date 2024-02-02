@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[337],{6337:(s,e,t)=>{s.exports=t.p+"static/media/scoot.345a4bfd15e6f589d568.svg"}}]);

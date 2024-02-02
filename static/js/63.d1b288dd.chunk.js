@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[63],{9063:(e,s,c)=>{e.exports=c.p+"static/media/vector.d9c0112ac6f7293a78de.svg"}}]);

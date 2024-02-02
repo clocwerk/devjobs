@@ -1,0 +1,2 @@
+.jobs-sec{flex-direction:column;position:relative}.jobs-sec,.jobs-sec .jobs{align-items:center;display:flex;justify-content:center}.jobs-sec .jobs{color:var(--p-text-color);flex-wrap:wrap;padding-bottom:144px;padding-top:100px;row-gap:45px;width:100%}@media screen and (min-width:768px){.jobs-sec .jobs{column-gap:10px;padding-top:100px}}@media screen and (min-width:1340px){.jobs-sec .jobs{column-gap:30px;padding-top:144px}}
+/*# sourceMappingURL=398.2a4a2ff1.chunk.css.map*/

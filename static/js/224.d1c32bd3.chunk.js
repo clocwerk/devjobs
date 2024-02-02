@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[224],{9224:(e,s,c)=>{e.exports=c.p+"static/media/icon-location.325ff3d99912e5505f5c.svg"}}]);

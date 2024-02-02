@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[47],{7047:(e,s,t)=>{e.exports=t.p+"static/media/bg-pattern-header.f3307602ee5e7c6b4f50.svg"}}]);

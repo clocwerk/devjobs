@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[832],{5832:(s,b,e)=>{s.exports=e.p+"static/media/blogr.68f4bc4bb85b4aa267d0.svg"}}]);

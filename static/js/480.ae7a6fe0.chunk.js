@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[480],{7480:(s,e,a)=>{s.exports=a.p+"static/media/mastercraft.a98383d02483419b7348.svg"}}]);

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/201.02bc0678.chunk.css","mappings":"AAAA,KAEI,iCADA,YAEA","sources":["scss/app.scss"],"sourcesContent":[".App{\n    height: 100%;\n    background-color: var(--bg-color);\n    transition: background-color 0.3s ease-in-out;\n}\n\n"],"names":[],"sourceRoot":""}

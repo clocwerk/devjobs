@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[277],{1277:(e,s,a)=>{e.exports=a.p+"static/media/crowdfund.1aee1724815801f6f419.svg"}}]);

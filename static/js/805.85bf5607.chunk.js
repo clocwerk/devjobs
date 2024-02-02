@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[805],{805:(e,s,b)=>{e.exports=b.p+"static/media/officelite.34773de614b80abc0b9a.svg"}}]);

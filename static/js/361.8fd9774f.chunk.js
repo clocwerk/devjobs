@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevjobs=self.webpackChunkdevjobs||[]).push([[361],{5361:(e,s,a)=>{e.exports=a.p+"static/media/coffeeroasters.70ce77dac433114a8f88.svg"}}]);
