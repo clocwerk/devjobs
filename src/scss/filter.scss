@@ -1,0 +1,114 @@
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding:0   16px ;
+    width: 100%;
+    height: 80px;
+    background-color: var(--card-bg-color);
+    
+    position: absolute;
+    top: -40px;
+    transition: background-color 0.3s ease-in-out;
+
+    @media  screen  and (min-width: 768px){
+        justify-content: center;
+      }
+
+   
+
+    .filter-input{
+        width: 100%;
+        height: 100%;
+        padding: 24px 0;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color:var( --p-text-color);
+        cursor: pointer;
+
+        transition: color 0.3s ease-in-out;
+        font-size: 16px;
+        font-weight: 500;
+
+        caret-color: var(--p-violet);
+        @media  screen  and (min-width: 768px){
+            padding: 32px 56px;
+          }
+
+    }
+
+    .filter-location,.filter-all,.filter-time{
+        position: relative;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        gap: 16px;
+        color: var(--p-text-color);
+        
+        transition: color 0.3s ease-in-out;
+
+    }
+    .filter-all,.filter-location{
+        width: 80%;
+        @media  screen  and (min-width: 768px){
+            width: 40%;;
+          }
+        img{
+            position: absolute;
+            left: 30px;
+        }
+    }
+    .filter-all{
+        img{
+            left: 22px; 
+            display: none;
+            @media  screen  and (min-width: 768px){
+                display:block;
+              }
+        }
+    }
+    .filter-location,.filter-time{
+        display: none;
+        @media  screen  and (min-width: 768px){
+            display: flex;
+          }
+    }
+    .filter-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        position: relative;
+        background-color: var(--p-violet);
+
+        @media  screen  and (min-width: 768px){
+            display: none;
+          }
+          
+    }
+
+    .checkbox{
+        width: 24px;
+        height: 24px;
+        background-color: var(--s-gray);
+        fill: var(--s-gray);
+        cursor: pointer;
+
+    }
+        
+        .search{
+    width: 123px;
+    height: 48px;
+    background-color: var( --p-violet);
+    color: var(--s-white);
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+
+   }
+
+   
+}

@@ -1,0 +1,238 @@
+
+.about{
+    height: 100%;
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease-in-out;
+
+    & p,li{
+        color: var(--s-dark-gray);
+        line-height: 26px;
+        transition: color 0.3s ease-in-out;
+    }
+    & h2,h3,h4{
+        color: var(--p-text-color);
+        transition: color 0.3s ease-in-out;
+    }
+    .container{
+        @media screen and (min-width: 1340px){
+            max-width: 730px;
+    }
+}
+    .button{
+            padding: 16px 20px;
+            border: 0;
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            
+            background-color: var(--p-violet);
+            cursor: pointer;
+
+            @media  screen  and (min-width: 768px){
+                padding: 16px 28px;
+            }
+
+            &:hover{
+                background-color: var(--p-light-violet);
+            }
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+      }
+
+    .company{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 49px 0 32px 0;
+    
+        background-color: var(--card-bg-color);
+        transition: background-color 0.3s ease-in-out;
+        border-radius: 10px;
+
+        @media  screen  and (min-width: 768px){
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 0 42px 0 0;
+
+          }
+          
+
+        .logo{
+            position: absolute;
+            top: -26px;
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+            
+            @media  screen  and (min-width: 768px){
+                position: static;
+                width: 140px;
+                height: 140px;
+                border-radius:  10px 0 0 10px ;
+                margin-right: 40px;
+                img{
+                    transform: scale(2);
+                }
+            }
+        }
+        .company-name{
+            display: flex;
+            align-items: center;
+            margin-bottom:  30px; 
+
+            h2{
+                font-size: 20px;
+            }
+            @media  screen  and (min-width: 768px){
+                margin-bottom:  0; 
+
+                h2{
+                    font-size: 24px;
+                }
+            }
+
+        }
+        
+
+    }    
+
+    .about-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
+        margin-top: -60px;
+       
+    }
+
+.info{
+    width: 100%;
+    padding: 40px 24px;
+    margin-top: 24px;
+    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    transition: background-color 0.3s ease-in-out;
+
+    @media  screen  and (min-width: 768px){
+        padding: 48px 43px 48px 48px;
+        margin-top: 32px;
+    }
+
+    
+
+    .main-info{
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+        @media  screen  and (min-width: 768px){
+            flex-direction: row;
+            align-items: center;
+
+        }
+        .main-info-container{
+            width: 100%;
+            margin-bottom: 54px;
+            @media  screen  and (min-width: 768px){
+                margin-bottom: 0;
+                width: auto;
+            }
+
+
+            
+        }
+       
+        .position{
+            margin: 8px 0;
+            
+            font-size: 20px;
+            @media  screen  and (min-width: 768px){
+                font-size: 28px;
+            }
+        }
+
+
+        .location{
+        color: var(--p-violet);
+    }
+    }
+    .description{
+        margin-bottom: 40px;
+    }
+    .requirements,.role{
+        margin-bottom: 28px;
+    }
+    .requirements-text,.role-text{
+        margin-bottom: 24px;
+            
+    }
+
+    .requirements-list{
+        margin-bottom: 48px;
+        margin-left: 14px;
+        .list-item{
+            margin-bottom: 8px;
+            &::marker{
+                color:var(--p-violet);
+               
+            }
+        }
+    }
+    .role-list{
+        margin-left: 14px;
+        .list-item{
+            margin-bottom: 8px;
+            &::marker{
+                color:var(--p-violet);
+               
+            }
+        }
+    }
+   
+} 
+.footer{
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-bg-color);
+    transition: background-color 0.3s ease-in-out;
+
+    .footer-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        
+
+        .footer-company{
+            display: none;
+            @media  screen  and (min-width: 768px){
+                display: block;
+            }
+        }
+        .button{
+            width: 100%;
+            @media  screen  and (min-width: 768px){
+                width: auto;
+            }
+        }
+    }
+   
+}
+    
+    
+}
